@@ -17,7 +17,7 @@ createBtn.addEventListener("click", () => {
     let img = document.createElement("img");
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
-    img.src = "./img/OIP (2).webp";
+    img.src = "OIP (2).webp";
     notesContainer.appendChild(inputBox).appendChild(img);
     
 })
